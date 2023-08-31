@@ -161,7 +161,7 @@ button:focus {
     margin: 0 auto;
   }
   .headingdiv {
-    margin: 50px 0;
+    margin: 50px 0 0 0;
     font-size: 17px;
     letter-spacing: 1px;
   }
@@ -184,5 +184,13 @@ button:focus {
   }
   .property p {
     font-size: 15px;
+  }
+  .shine4 {
+    margin: 30px 100px;
+  }
+}
+@media (max-width: 500px) {
+  .shine4 {
+    margin: 30px 0;
   }
 }

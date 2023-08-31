@@ -1,0 +1,148 @@
+.shine7 {
+  padding: 15px 20px;
+  z-index: 1000;
+  font-weight: 600;
+  font-size: 17px;
+  overflow: hidden;
+  position: relative;
+  cursor: pointer;
+  display: inline;
+  border-radius: 5px;
+  margin: 20px 0;
+  width: 300px;
+  border: 0;
+  color: white;
+  background-color: rgb(50, 164, 230);
+}
+.shine7:after {
+  content: "";
+  position: absolute;
+  top: -50%;
+  right: -50%;
+  bottom: -50%;
+  left: -100%;
+  background: linear-gradient(
+    to bottom,
+    rgba(229, 172, 142, 0),
+    rgba(255, 255, 255, 0.5) 50%,
+    rgba(229, 172, 142, 0)
+  );
+  transform: rotateZ(60deg) translate(-5em, 7em);
+}
+.shine7:hover::after,
+.shine7:focus::after {
+  animation: shine 0.9s forwards;
+}
+@keyframes shine {
+  100% {
+    transform: rotateZ(60deg) translate(1em, -20em);
+  }
+}
+button:focus {
+  outline: 0;
+}
+.contactpage {
+  width: 85vw;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+.conleftside {
+  width: 60%;
+  height: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 700px;
+}
+.coninerleft {
+  width: 60%;
+  height: 70%;
+  transform: translateX(-120px);
+  position: relative;
+  display: flex;
+  justify-content: center;
+  border-radius: 10px;
+  align-items: center;
+}
+.contactright {
+  width: 40%;
+  max-width: 700px;
+}
+.conlefttiltdiv {
+  width: 300px;
+  background-color: rgb(50, 164, 230);
+  height: 70%;
+  transform: translateX(50%);
+  padding: 20px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  border-radius: 10px;
+}
+.conlefttiltdiv * {
+  margin: 0;
+}
+.agentpic {
+  width: 80px;
+  height: 80px;
+  border-radius: 100%;
+  overflow: hidden;
+}
+.agentpic img {
+  height: 80px;
+}
+.agentname {
+  font-weight: 500;
+  font-size: 22px;
+  margin: 10px 0;
+}
+@media (max-width: 980px) {
+  .contactpage {
+    flex-direction: column;
+  }
+  .conleftside {
+    width: 100%;
+    margin: 40px 0;
+    height: 400px;
+  }
+  .coninerleft {
+    width: 100%;
+    transform: none;
+    height: 100%;
+    margin: 0;
+    max-width: 500px;
+  }
+  .contactright {
+    width: 100%;
+    max-width: 800px;
+  }
+  .contbuttondiv {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .conlefttiltdiv {
+    transform: none;
+    width: 70%;
+    height: 60%;
+    padding: 20px 10px;
+  }
+  .agentname {
+    font-size: 19px;
+  }
+  .agentdesc {
+    font-size: 14px;
+  }
+  .contactright h1 {
+    font-size: 26px;
+  }
+  .shine7 {
+    margin-bottom: 40px;
+  }
+}
