@@ -1,0 +1,125 @@
+.sellpage {
+  display: flex;
+  width: 90vw;
+  height: 100vh;
+  margin: auto;
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-content: center;
+}
+.sellpagefull {
+  background-color: #f5f3f3;
+}
+
+.sellcontent {
+  width: 50%;
+  height: 90%;
+  margin-left: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 700px;
+}
+.sellcontent h1 {
+  display: inline;
+  border-bottom: 2px solid rgb(50, 164, 230);
+  padding-bottom: 3px;
+  width: 335px;
+}
+.sellimage {
+  display: flex;
+  width: 50%;
+  align-items: center;
+  justify-content: center;
+}
+.sellimage img {
+  width: 90%;
+  max-width: 700px;
+  min-width: 400px;
+}
+.shine6 {
+  padding: 15px 20px;
+  z-index: 1000;
+  font-weight: 600;
+  font-size: 17px;
+  overflow: hidden;
+  position: relative;
+  cursor: pointer;
+  display: inline;
+  border-radius: 5px;
+  margin: 20px 0;
+  width: 300px;
+  border: 0;
+  color: white;
+  background-color: rgb(50, 164, 230);
+}
+.shine6:after {
+  content: "";
+  position: absolute;
+  top: -50%;
+  right: -50%;
+  bottom: -50%;
+  left: -100%;
+  background: linear-gradient(
+    to bottom,
+    rgba(229, 172, 142, 0),
+    rgba(255, 255, 255, 0.5) 50%,
+    rgba(229, 172, 142, 0)
+  );
+  transform: rotateZ(60deg) translate(-5em, 7em);
+}
+.shine6:hover::after,
+.shine6:focus::after {
+  animation: shine 0.9s forwards;
+}
+@keyframes shine {
+  100% {
+    transform: rotateZ(60deg) translate(1em, -20em);
+  }
+}
+button:focus {
+  outline: 0;
+}
+@media (max-width: 1135px) {
+  .sellpage {
+    width: 95vw;
+  }
+}
+@media (max-width: 950px) {
+  .sellcontent p {
+    font-size: 15px;
+  }
+}
+@media (max-width: 835px) {
+  .sellpage {
+    flex-direction: column;
+    height: auto;
+    padding: 50px 0;
+  }
+  .sellimage {
+    width: 90vw;
+    padding: 0 10px;
+  }
+  .sellimage img {
+    width: 90vw;
+    min-width: 1px;
+    max-width: 500px;
+  }
+  .sellcontent {
+    margin: 0;
+    width: 80vw;
+    margin: auto;
+  }
+  .buttondiv {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 10px 0;
+  }
+}
+@media (max-width: 390px) {
+  .sellcontent h1 {
+    font-size: 27px;
+    width: 290px;
+  }
+}

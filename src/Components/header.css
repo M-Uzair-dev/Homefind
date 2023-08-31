@@ -1,0 +1,173 @@
+p.morning {
+  background: #e67e22;
+}
+.navbar {
+  display: flex;
+  width: 90%;
+  user-select: none;
+  justify-content: space-between;
+  align-items: center;
+  height: 15vh;
+  margin: auto;
+}
+.leftside {
+  width: auto;
+  display: inline;
+}
+.logo {
+  user-select: none;
+}
+.logo span {
+  color: rgb(50, 164, 230);
+  width: 70%;
+}
+.rightside {
+  display: flex;
+  align-items: center;
+  width: 80%;
+  justify-content: flex-end;
+}
+.list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-right: 15px;
+}
+.li {
+  list-style: none;
+  font-weight: 400;
+  font-size: 17px;
+  cursor: pointer;
+  margin: 0 15px;
+  transition: 0.2s all ease;
+}
+.shine {
+  padding: 15px 50px;
+  font-weight: 600;
+  font-size: 17px;
+  overflow: hidden;
+  position: relative;
+  cursor: pointer;
+  border-radius: 5px;
+  border: 0;
+  color: white;
+  box-shadow: -2px 2px 2px #ccc;
+  background-color: rgb(50, 164, 230);
+}
+.shine:after {
+  content: "";
+  position: absolute;
+  top: -50%;
+  right: -50%;
+  bottom: -50%;
+  left: -50%;
+  background: linear-gradient(
+    to bottom,
+    rgba(229, 172, 142, 0),
+    rgba(255, 255, 255, 0.5) 50%,
+    rgba(229, 172, 142, 0)
+  );
+  transform: rotateZ(60deg) translate(-5em, 7em);
+}
+.shine:hover::after,
+.shine:focus::after {
+  animation: shine 0.9s forwards;
+}
+@keyframes shine {
+  100% {
+    transform: rotateZ(60deg) translate(1em, -20em);
+  }
+}
+button:focus {
+  outline: 0;
+}
+.li:hover {
+  color: rgb(50, 164, 230);
+}
+.togglebutton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.menu,
+.closebutton {
+  display: none;
+}
+@media (max-width: 960px) {
+  .navbar {
+    width: 95%;
+    height: 15vh;
+  }
+  .logo {
+    font-size: 25px;
+  }
+}
+@media (max-width: 900px) {
+  .shine {
+    display: none;
+  }
+}
+@media (max-width: 900px) {
+  .rightsidebig {
+    display: none;
+  }
+  .navbar {
+    width: 90%;
+    align-items: center;
+  }
+  .menu {
+    transform: translateY(5px);
+  }
+  .shine {
+    display: block;
+    box-shadow: none;
+    margin: 20px 0;
+  }
+  .menu,
+  .closebutton {
+    display: block;
+    cursor: pointer;
+  }
+  .rightside {
+    background-image: linear-gradient(
+      to bottom,
+      rgb(72, 175, 235),
+      rgb(137, 205, 245)
+    );
+    transition: all 0.5s ease-in-out;
+    position: absolute;
+    width: 60vw;
+    height: 100vh;
+    top: 0;
+    z-index: 100;
+    right: -60vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+    flex-direction: column;
+    color: white;
+    min-width: 200px;
+    max-width: 350px;
+    display: none;
+  }
+  .list {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+  }
+  .li {
+    margin: 20px 0;
+  }
+  .closebutton {
+    position: absolute;
+    top: 25px;
+    right: 25px;
+  }
+  .li:hover {
+    color: rgb(7, 126, 182);
+  }
+}

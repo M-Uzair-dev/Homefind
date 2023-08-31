@@ -1,0 +1,130 @@
+.aboutpage {
+  display: flex;
+  width: 90vw;
+  height: 100vh;
+  margin: auto;
+  align-items: center;
+  justify-content: center;
+}
+.aboutpagefull {
+  background-color: #e7e7e7;
+}
+
+.aboutcontent {
+  width: 50%;
+  height: 90%;
+  margin-left: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 700px;
+}
+.aboutcontent h1 {
+  display: inline;
+  border-bottom: 2px solid rgb(50, 164, 230);
+  padding-bottom: 3px;
+  width: 300px;
+}
+.aboutimage {
+  display: flex;
+  width: 50%;
+  align-items: center;
+  justify-content: center;
+}
+.aboutimage img {
+  width: 90%;
+  max-width: 700px;
+  min-width: 400px;
+}
+.shine3 {
+  padding: 15px 20px;
+  z-index: 1000;
+  font-weight: 600;
+  font-size: 17px;
+  overflow: hidden;
+  position: relative;
+  cursor: pointer;
+  display: inline;
+  border-radius: 5px;
+  margin: 10px;
+  width: 300px;
+  border: 0;
+  color: white;
+  background-color: rgb(50, 164, 230);
+}
+.shine3:after {
+  content: "";
+  position: absolute;
+  top: -50%;
+  right: -50%;
+  bottom: -50%;
+  left: -100%;
+  background: linear-gradient(
+    to bottom,
+    rgba(229, 172, 142, 0),
+    rgba(255, 255, 255, 0.5) 50%,
+    rgba(229, 172, 142, 0)
+  );
+  transform: rotateZ(60deg) translate(-5em, 7em);
+}
+.shine3:hover::after,
+.shine3:focus::after {
+  animation: shine 0.9s forwards;
+}
+@keyframes shine {
+  100% {
+    transform: rotateZ(60deg) translate(1em, -20em);
+  }
+}
+button:focus {
+  outline: 0;
+}
+.mainheading {
+  font-size: 2.5rem;
+}
+.shine32 {
+  margin: 0 10px;
+}
+@media (max-width: 1135px) {
+  .aboutpage {
+    width: 95vw;
+  }
+}
+@media (max-width: 950px) {
+  .aboutcontent p {
+    font-size: 15px;
+  }
+}
+@media (max-width: 835px) {
+  .aboutpage {
+    flex-direction: column;
+    height: auto;
+    padding: 50px 0;
+  }
+  .aboutimage {
+    width: 90vw;
+    padding: 0 10px;
+  }
+  .aboutimage img {
+    width: 90vw;
+    min-width: 1px;
+    max-width: 500px;
+  }
+  .aboutcontent {
+    margin: 0;
+    width: 80vw;
+    margin: auto;
+  }
+  .buttondiv {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 10px 0;
+  }
+}
+@media (max-width: 390px) {
+  .aboutcontent h1 {
+    font-size: 27px;
+    width: 250px;
+  }
+}
