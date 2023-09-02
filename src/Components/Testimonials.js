@@ -2,7 +2,7 @@ import React from "react";
 import "./testimonials.css";
 import commas from "./images/testimonialscomma.png";
 import img1 from "./images/testimonialsimg1.jpg";
-import img2 from "./images/testimonialsimg2.jpg";
+import img2 from "./images/testimonialsimg2.png";
 
 const Testimonials = () => {
   return (
