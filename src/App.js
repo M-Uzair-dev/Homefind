@@ -1,5 +1,4 @@
 import Mainweb from "./Components/mainweb";
-import "./app.css";
 
 function App() {
   return (
