@@ -1,0 +1,39 @@
+.commas {
+  width: 100px;
+}
+.testimonialspage {
+  height: 100vh;
+  width: 100vw;
+}
+.testimonialsdiv {
+  margin: auto;
+  height: 80vh;
+  width: 90vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.testimonialstitle {
+  font-size: 40px;
+}
+.testimonial1,
+.testimonial2 {
+  width: 50%;
+  padding: 20px;
+  background-color: rgba(50, 164, 230, 0.452);
+  margin: 0 10px;
+}
+.testimonialscontainer {
+  display: flex;
+}
+.testimagecont {
+  width: 50px;
+  height: 50px;
+  overflow: hidden;
+  border-radius: 50%;
+}
+.testimage {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}

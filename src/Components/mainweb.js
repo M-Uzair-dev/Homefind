@@ -6,6 +6,7 @@ import Services from "./Services";
 import Properties from "./Properties";
 import Sell from "./Sell";
 import Contact from "./Contactpage";
+import Testimonials from "./Testimonials";
 
 const Mainweb = () => {
   return (
@@ -17,6 +18,7 @@ const Mainweb = () => {
       <Properties />
       <Sell />
       <Contact />
+      <Testimonials />
     </>
   );
 };
