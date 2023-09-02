@@ -50,7 +50,7 @@ p {
   }
   .testimonial1,
   .testimonial2 {
-    width: 90%;
+    flex-basis: 0 90vw;
     margin: 20px 0;
   }
 }
