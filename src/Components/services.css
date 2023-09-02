@@ -25,6 +25,7 @@
 }
 .servicespagefull {
   background-color: #e0e0e0;
+  height: auto;
 }
 .headingdiv::before {
   content: "";
@@ -57,6 +58,9 @@
   .servicespage {
     width: 90vw;
     margin: 0 auto;
+  }
+  .servicespagefull {
+    height: auto;
   }
   .headingdiv {
     margin: 50px 0;

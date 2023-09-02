@@ -5,6 +5,7 @@
   position: relative;
   margin: 0;
   justify-content: space-between;
+  max-height: 1000px;
 }
 .content {
   width: 50vw;
@@ -73,6 +74,7 @@ button:focus {
   pointer-events: none;
   margin: 0;
   padding: 0;
+  max-height: 1000px;
   right: 0;
 }
 .acievements {

@@ -6,6 +6,7 @@
   flex-direction: row-reverse;
   align-items: center;
   justify-content: center;
+  height: auto;
 }
 .sellpagefull {
   background-color: #f5f3f3;
@@ -24,7 +25,7 @@
   display: inline;
   border-bottom: 2px solid rgb(50, 164, 230);
   padding-bottom: 3px;
-  width: 335px;
+  width: 380px;
 }
 .sellimage {
   display: flex;
@@ -117,9 +118,9 @@ button:focus {
     margin: 10px 0;
   }
 }
-@media (max-width: 390px) {
+@media (max-width: 447px) {
   .sellcontent h1 {
     font-size: 27px;
-    width: 290px;
+    width: 180px;
   }
 }

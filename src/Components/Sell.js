@@ -10,7 +10,7 @@ const Sell = () => {
           <img src={sellimage} alt="sellimg" />
         </div>
         <div className="sellcontent">
-          <h1 style={{ cursor: "default" }}>Selling your Home ?</h1>
+          <h1 style={{ cursor: "default" }}>Selling your Property ?</h1>
           <p style={{ cursor: "default" }}>
             Are you thinking of selling your home? HomeFind is the best place to
             start. Our team of experienced real estate agents will work with you
