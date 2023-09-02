@@ -1,7 +1,6 @@
 import React from "react";
 import "./testimonials.css";
-import commas from "./images/testimonialscomma.png";
-import img1 from "./images/testimonialsimg1.jpg";
+import img1 from "./images/testimonialsimg1.png";
 import img2 from "./images/testimonialsimg2.png";
 
 const Testimonials = () => {
@@ -14,8 +13,6 @@ const Testimonials = () => {
         </h1>
         <div className="testimonialscontainer">
           <div className="testimonial1">
-            <img className="commas" src={commas} alt="commas" />
-
             <div className="testimagecont">
               <img className="testimage" src={img1} alt="pic1" />
             </div>
@@ -29,7 +26,6 @@ const Testimonials = () => {
             </p>
           </div>
           <div className="testimonial2">
-            <img className="commas" src={commas} alt="commas" />
             <div className="testimagecont">
               <img className="testimage" src={img2} alt="pic2" />
             </div>

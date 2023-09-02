@@ -1,8 +1,4 @@
-.commas {
-  width: 100px;
-}
 .testimonialspage {
-  height: 100vh;
   width: 100vw;
 }
 .testimonialsdiv {
@@ -15,13 +11,21 @@
 }
 .testimonialstitle {
   font-size: 40px;
+  margin: 40px 0;
 }
 .testimonial1,
 .testimonial2 {
   width: 50%;
-  padding: 20px;
+  padding: 20px 30px;
   background-color: rgba(50, 164, 230, 0.452);
   margin: 0 10px;
+  border-radius: 10px;
+  transition: 0.3s all ease-out;
+  max-width: 600px;
+}
+.testimonial1:hover,
+.testimonial2:hover {
+  transform: translateY(-3px);
 }
 .testimonialscontainer {
   display: flex;
@@ -36,4 +40,17 @@
   width: 100%;
   height: 100%;
   object-fit: cover;
+}
+p {
+  font-size: 15px;
+}
+@media (max-width: 750px) {
+  .testimonialscontainer {
+    flex-direction: column;
+  }
+  .testimonial1,
+  .testimonial2 {
+    width: 90%;
+    margin: 20px 0;
+  }
 }
