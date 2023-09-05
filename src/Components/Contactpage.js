@@ -27,8 +27,10 @@ const contact = () => {
         </div>
       </div>
       <div className="contactright">
-        <h1>Meet and talk with our best real estate agent</h1>
-        <p>
+        <h1 style={{ cursor: "default" }}>
+          Meet and talk with our best real estate agent
+        </h1>
+        <p style={{ cursor: "default" }}>
           Our experienced real estate agent will guide you through the entire
           home buying, selling, or renting process, regardless of your level of
           knowledge. We will work with you to understand your needs and goals,

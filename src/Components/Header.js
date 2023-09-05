@@ -18,7 +18,7 @@ const Header = () => {
     <div className="navbar">
       <div className="leftside">
         <h1 className="logo">
-          <span>HOME</span>FIND
+          <span>PROPERTY</span>SEEKERS
         </h1>
       </div>
       <div className="rightsidebig rightside">

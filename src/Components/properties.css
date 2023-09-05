@@ -148,6 +148,9 @@ button:focus {
   .textcotainer h3 {
     font-size: 18px;
   }
+  .shine4 {
+    margin: 30px 100px;
+  }
 }
 @media (max-width: 1050px) {
   .property {

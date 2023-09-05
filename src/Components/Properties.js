@@ -59,7 +59,7 @@ const Services = () => {
       <div className="propertycards">
         {data.map((e, i) => {
           return (
-            <div className="property">
+            <div className="property" key={i}>
               <div className="imagecontainer">
                 <img src={e.image} alt="cardimage" />
               </div>

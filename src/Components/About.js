@@ -10,10 +10,10 @@ const About = () => {
           <img src={aboutimage} alt="aboutimg" />
         </div>
         <div className="aboutcontent">
-          <h1 style={{ cursor: "default" }}>ABOUT HOMEFIND</h1>
+          <h1 style={{ cursor: "default" }}>ABOUT PropertySeekers</h1>
           <p style={{ cursor: "default" }}>
-            <span style={{ color: "rgb(50, 164, 230)" }}>HomeFind</span> is a
-            real estate agency dedicated to helping people find their dream
+            <span style={{ color: "rgb(50, 164, 230)" }}>PropertySeekers</span>{" "}
+            is a real estate agency dedicated to helping people find their dream
             homes. We are a team of experienced professionals with a passion for
             helping our clients achieve their goals. We understand that buying
             or selling a home is a big decision, and we are committed to making

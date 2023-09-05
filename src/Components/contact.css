@@ -57,6 +57,9 @@ button:focus {
   align-items: center;
   max-width: 700px;
 }
+.conleftside * {
+  cursor: default;
+}
 .coninerleft {
   width: 60%;
   height: 70%;

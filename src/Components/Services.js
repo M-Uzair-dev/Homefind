@@ -21,9 +21,9 @@ const Services = () => {
             </div>
             <h2>Buying</h2>
             <p>
-              Looking to buy a home? HomeFind can help you find the perfect
-              property for your needs and budget. We have a wide variety of
-              homes for sale.
+              Looking to buy a home? PropertySeekers can help you find the
+              perfect property for your needs and budget. We have a wide variety
+              of homes for sale.
             </p>
           </div>
           <div className="card">
@@ -32,9 +32,9 @@ const Services = () => {
             </div>
             <h2>Selling</h2>
             <p>
-              Looking to buy a home? HomeFind can help you find the perfect
-              property for your needs and budget. We have a wide variety of
-              homes for sale.
+              Looking to buy a home? PropertySeekers can help you find the
+              perfect property for your needs and budget. We have a wide variety
+              of homes for sale.
             </p>
           </div>
           <div className="card">
@@ -43,7 +43,7 @@ const Services = () => {
             </div>
             <h2>Renting</h2>
             <p>
-              Looking for a place to rent? HomeFind can help you find the
+              Looking for a place to rent? PropertySeekers can help you find the
               perfect rental for your needs. We have a wide variety of rental
               properties available.
             </p>

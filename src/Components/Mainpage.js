@@ -9,16 +9,18 @@ const Mainpage = () => {
         <div className="content">
           <div className="texts">
             <h1 className="mainheading">
-              <span style={{ color: "rgb(50, 164, 230)" }}>Homefind</span>, The
-              Real Estate Experts You Can Trust.
+              <span style={{ color: "rgb(50, 164, 230)" }}>
+                PropertySeekers
+              </span>
+              , The Real Estate Experts You Can Trust.
             </h1>
-            <p className="paragraph" style={{ cursor: "default" }}>
-              Homefind is your one-stop shop for all things real estate. Our
-              experienced agents can help you find the perfect home for your
-              needs and budget. We offer services either you want to buy or sell
-              your house
-            </p>
           </div>
+          <p className="paragraph" style={{ cursor: "default" }}>
+            PropertySeekers is your one-stop shop for all things real estate.
+            Our experienced agents can help you find the perfect home for your
+            needs and budget. We offer services either you want to buy or sell
+            your house
+          </p>
           <p className="youarehere" style={{ cursor: "default" }}>
             You are here to :
           </p>

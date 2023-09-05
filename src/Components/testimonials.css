@@ -1,6 +1,9 @@
 .testimonialspage {
   width: 100vw;
 }
+.testimonialspage * {
+  cursor: default;
+}
 .testimonialsdiv {
   margin: auto;
   width: 90vw;

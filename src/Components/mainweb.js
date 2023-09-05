@@ -7,6 +7,7 @@ import Properties from "./Properties";
 import Sell from "./Sell";
 import Contact from "./Contactpage";
 import Testimonials from "./Testimonials";
+import Footer from "./Footer";
 
 const Mainweb = () => {
   return (
@@ -19,6 +20,7 @@ const Mainweb = () => {
       <Sell />
       <Contact />
       <Testimonials />
+      <Footer />
     </>
   );
 };
