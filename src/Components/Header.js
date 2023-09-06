@@ -15,10 +15,16 @@ const Header = () => {
     setIsMenuOpen(false);
   };
   return (
-    <div className="navbar">
+    <div
+      className="navbar"
+      data-aos="fade-zoom-in"
+      data-aos-easing="ease-in-back"
+      data-aos-delay="400"
+      data-aos-offset="0"
+    >
       <div className="leftside">
         <h1 className="logo">
-          <span>PROPERTY</span>SEEKERS
+          <span>PR</span>SEKRS
         </h1>
       </div>
       <div className="rightsidebig rightside">

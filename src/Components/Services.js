@@ -15,7 +15,7 @@ const Services = () => {
           </h1>
         </div>
         <div className="cards" style={{ cursor: "default" }}>
-          <div className="card">
+          <div className="card" data-aos="flip-up">
             <div className="logodiv">
               <img src={homelogo} alt="logo" />
             </div>
@@ -26,7 +26,7 @@ const Services = () => {
               of homes for sale.
             </p>
           </div>
-          <div className="card">
+          <div className="card" data-aos="flip-up">
             <div className="logodiv">
               <img src={sellogo} alt="logo" />
             </div>
@@ -37,7 +37,7 @@ const Services = () => {
               of homes for sale.
             </p>
           </div>
-          <div className="card">
+          <div className="card" data-aos="flip-up">
             <div className="logodiv">
               <img src={rentlogo} alt="logo" />
             </div>

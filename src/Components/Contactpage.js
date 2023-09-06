@@ -6,7 +6,7 @@ import agentimg from "./images/potrait.jpg";
 const contact = () => {
   return (
     <div className="contactpage">
-      <div className="conleftside">
+      <div className="conleftside" data-aos="fade-right">
         <div
           className="coninerleft"
           style={{
@@ -26,7 +26,7 @@ const contact = () => {
           </div>
         </div>
       </div>
-      <div className="contactright">
+      <div className="contactright" data-aos="fade-left">
         <h1 style={{ cursor: "default" }}>
           Meet and talk with our best real estate agent
         </h1>

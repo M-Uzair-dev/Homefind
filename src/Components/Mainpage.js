@@ -6,7 +6,13 @@ const Mainpage = () => {
   return (
     <>
       <div className="mainpage">
-        <div className="content">
+        <div
+          className="content"
+          data-aos="fade-zoom-in"
+          data-aos-easing="ease-in-back"
+          data-aos-delay="400"
+          data-aos-offset="0"
+        >
           <div className="texts">
             <h1 className="mainheading">
               <span style={{ color: "rgb(50, 164, 230)" }}>
@@ -49,7 +55,13 @@ const Mainpage = () => {
             </div>
           </div>
         </div>
-        <div className="mainimage">
+        <div
+          className="mainimage"
+          data-aos="fade-left"
+          data-aos-easing="ease-in-back"
+          data-aos-delay="0"
+          data-aos-offset="0"
+        >
           <img src={mainpic} alt="mainpic" />
         </div>
       </div>

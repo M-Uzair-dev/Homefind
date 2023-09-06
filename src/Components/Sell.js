@@ -6,10 +6,10 @@ const Sell = () => {
   return (
     <div className="sellpagefull">
       <div className="sellpage">
-        <div className="sellimage">
+        <div className="sellimage" data-aos="fade-down-left">
           <img src={sellimage} alt="sellimg" />
         </div>
-        <div className="sellcontent">
+        <div className="sellcontent" data-aos="fade-down-right">
           <h1 style={{ cursor: "default" }}>Selling your Property ?</h1>
           <p style={{ cursor: "default" }}>
             Are you thinking of selling your home? PropertySeekers is the best

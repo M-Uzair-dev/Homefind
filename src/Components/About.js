@@ -6,10 +6,10 @@ const About = () => {
   return (
     <div className="aboutpagefull">
       <div className="aboutpage">
-        <div className="aboutimage">
+        <div className="aboutimage" data-aos="fade-right">
           <img src={aboutimage} alt="aboutimg" />
         </div>
-        <div className="aboutcontent">
+        <div className="aboutcontent" data-aos="fade-left">
           <h1 style={{ cursor: "default" }}>ABOUT PropertySeekers</h1>
           <p style={{ cursor: "default" }}>
             <span style={{ color: "rgb(50, 164, 230)" }}>PropertySeekers</span>{" "}

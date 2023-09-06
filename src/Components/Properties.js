@@ -59,7 +59,7 @@ const Services = () => {
       <div className="propertycards">
         {data.map((e, i) => {
           return (
-            <div className="property" key={i}>
+            <div className="property" key={i} data-aos="fade-up">
               <div className="imagecontainer">
                 <img src={e.image} alt="cardimage" />
               </div>
