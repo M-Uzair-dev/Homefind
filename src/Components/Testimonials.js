@@ -11,7 +11,7 @@ const Testimonials = () => {
           What they say about{" "}
           <span style={{ color: "rgb(50, 164, 230)" }}>Us</span>
         </h1>
-        <div className="testimonialscontainer" data-aos="zoom-out-down">
+        <div className="testimonialscontainer" data-aos="flip-up">
           <div className="testimonial1">
             <div className="testimagecont">
               <img className="testimage" src={img1} alt="pic1" />
