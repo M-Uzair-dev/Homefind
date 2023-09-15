@@ -24,7 +24,7 @@ const Header = () => {
     >
       <div className="leftside">
         <h1 className="logo">
-          <span>PRS</span>KRS
+          <span>PRS</span>EKRS
         </h1>
       </div>
       <div className="rightsidebig rightside">
